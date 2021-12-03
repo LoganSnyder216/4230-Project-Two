@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gardener",
-    "path": "sprites/spr_gardener/spr_gardener.yy",
+    "name": "spr_gardener_main",
+    "path": "sprites/spr_gardener_main/spr_gardener_main.yy",
   },
   "solid": false,
   "visible": true,

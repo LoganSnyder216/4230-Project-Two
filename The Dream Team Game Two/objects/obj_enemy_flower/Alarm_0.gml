@@ -5,5 +5,5 @@ event_inherited();
 
 for (var i = 0; i < 8; i++)
 {
-	scr_create_projectile(obj_projectile_wateringcan_enemy, x, y, i * 45);
+	scr_create_projectile(obj_projectile_petal_enemy, x, y, i * 45);
 }

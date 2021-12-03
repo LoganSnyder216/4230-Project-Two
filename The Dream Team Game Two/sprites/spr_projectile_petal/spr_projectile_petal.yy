@@ -21,15 +21,15 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 8,
-  "gridY": 8,
+  "gridX": 0,
+  "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2c5f4f5f-7225-44df-b965-8c0760d69708","path":"sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2c5f4f5f-7225-44df-b965-8c0760d69708","path":"sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",},"LayerId":{"name":"ff6e60a0-a656-474e-a696-3128cda0424f","path":"sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_projectile_wateringcan","path":"sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",},"resourceVersion":"1.0","name":"2c5f4f5f-7225-44df-b965-8c0760d69708","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"95c110cd-bfb9-4d21-8c0f-1561f2214116","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"95c110cd-bfb9-4d21-8c0f-1561f2214116","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},"LayerId":{"name":"3d39f5e2-c9cc-4313-96c1-b0dd1e53cffa","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_projectile_petal","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},"resourceVersion":"1.0","name":"95c110cd-bfb9-4d21-8c0f-1561f2214116","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_projectile_wateringcan","path":"sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",},
+    "spriteId": {"name":"spr_projectile_petal","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c829ee2d-2fe8-4956-a6bb-da95c80c2719","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c5f4f5f-7225-44df-b965-8c0760d69708","path":"sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2c4ada13-cdf6-4311-9549-f892d6c30ed1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95c110cd-bfb9-4d21-8c0f-1561f2214116","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_projectile_wateringcan","path":"sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",},
+    "parent": {"name":"spr_projectile_petal","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_projectile_wateringcan",
+    "name": "spr_projectile_petal",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ff6e60a0-a656-474e-a696-3128cda0424f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d39f5e2-c9cc-4313-96c1-b0dd1e53cffa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_projectile_wateringcan",
+  "name": "spr_projectile_petal",
   "tags": [],
   "resourceType": "GMSprite",
 }

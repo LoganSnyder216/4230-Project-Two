@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_projectile_wateringcan",
-    "path": "sprites/spr_projectile_wateringcan/spr_projectile_wateringcan.yy",
+    "name": "spr_projectile_petal",
+    "path": "sprites/spr_projectile_petal/spr_projectile_petal.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_projectile_wateringcan_enemy",
+  "name": "obj_projectile_petal_enemy",
   "tags": [],
   "resourceType": "GMObject",
 }
