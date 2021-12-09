@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_projectile_parent_enemy","path":"objects/obj_projectile_parent_enemy/obj_projectile_parent_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"projectile_speed","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},"objectId":{"name":"obj_projectile_parent","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

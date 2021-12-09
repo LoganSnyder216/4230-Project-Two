@@ -6,16 +6,21 @@ if (instance_exists(obj_gardener))
 	
 	if (point_distance(x, y, obj_gardener.x, obj_gardener.y) < 256)
 	{
-		speed = 8;
+		speed = 6;
 	}
 	
 	if (point_distance(x, y, obj_gardener.x, obj_gardener.y) < 96)
 	{	
-		if (!is_exploding)
+		if (image_index > 6)
 		{
-			is_exploding = true;
-			alarm[1] = 15;
+			if (!is_exploding)
+			{
+				is_exploding = true;
+				alarm[1] = 5;
+			}
 		}
+			
+		speed = 0;
 	}
 	
 	if (is_exploding)

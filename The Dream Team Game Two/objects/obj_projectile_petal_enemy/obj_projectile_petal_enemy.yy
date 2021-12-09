@@ -25,7 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"projectile_speed","path":"objects/obj_projectile_parent_enemy/obj_projectile_parent_enemy.yy",},"objectId":{"name":"obj_projectile_parent_enemy","path":"objects/obj_projectile_parent_enemy/obj_projectile_parent_enemy.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Projectiles",
     "path": "folders/Objects/Projectiles.yy",

@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Buttons",
+    "path": "folders/Sprites/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_btn_menu",

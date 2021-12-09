@@ -3,7 +3,7 @@
 function scr_game_setup(){
 	
 	//Global Variables
-	global.enemies = [obj_enemy_flower, obj_enemy_cactus];
+	global.enemies = [obj_enemy_flower, obj_enemy_potato];
 	global.enemy_count_max = 30;
 	global.enemy_count_current = 0;
 	global.enemy_count_remaining = global.enemy_count_max;

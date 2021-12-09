@@ -85,10 +85,12 @@
 		if (current_projectile == PROJECTILE_TYPE.BASIC)
 		{
 			current_projectile = PROJECTILE_TYPE.WIDE;
+			shoot_interval += 2;
 		}
 		else if (current_projectile == PROJECTILE_TYPE.WIDE)
 		{
 			current_projectile = PROJECTILE_TYPE.BASIC;
+			shoot_interval -= 2;
 		}
 	}
 	
@@ -98,12 +100,12 @@
 		if (current_attack_pattern == ATTACK_PATTERN.BASIC)
 		{
 			current_attack_pattern = ATTACK_PATTERN.SPREAD;
-			shoot_interval = 15;
+			shoot_interval += 5;
 		}
 		else if (current_attack_pattern == ATTACK_PATTERN.SPREAD)
 		{
 			current_attack_pattern = ATTACK_PATTERN.BASIC;
-			shoot_interval = 10;
+			shoot_interval -= 5;
 		}
 	}
 	
