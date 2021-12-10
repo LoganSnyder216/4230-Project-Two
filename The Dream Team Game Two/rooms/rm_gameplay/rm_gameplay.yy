@@ -17,9 +17,7 @@
         {"spriteId":{"name":"spr_play_area","path":"sprites/spr_play_area/spr_play_area.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":544.0,"resourceVersion":"1.0","name":"graphic_7F17C631","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_spawner","path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_56E4515B","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_spawner","path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_77064843","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_cactus","path":"objects/obj_enemy_cactus/obj_enemy_cactus.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":448.0,"resourceVersion":"1.0","name":"inst_4FF3E447","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_ctrl_waves","path":"objects/obj_ctrl_waves/obj_ctrl_waves.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_322BB13C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_gardener","path":"objects/obj_gardener/obj_gardener.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":608.0,"resourceVersion":"1.0","name":"inst_696113A0","tags":[],"resourceType":"GMRInstance",},
@@ -43,14 +41,12 @@
   "instanceCreationOrder": [
     {"name":"inst_696113A0","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_2B6E7492","path":"rooms/rm_gameplay/rm_gameplay.yy",},
-    {"name":"inst_56E4515B","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_6778241B","path":"rooms/rm_gameplay/rm_gameplay.yy",},
-    {"name":"inst_77064843","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_2622BF76","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_5D05889C","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_48E854EB","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_40392109","path":"rooms/rm_gameplay/rm_gameplay.yy",},
-    {"name":"inst_4FF3E447","path":"rooms/rm_gameplay/rm_gameplay.yy",},
+    {"name":"inst_322BB13C","path":"rooms/rm_gameplay/rm_gameplay.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

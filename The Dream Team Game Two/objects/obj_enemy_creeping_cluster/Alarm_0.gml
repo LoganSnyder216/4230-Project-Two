@@ -5,8 +5,7 @@ event_inherited();
 
 hp -= 1;
 
-instance_create_layer(x, y, "Enemies", obj_enemy_grape);
-instance_create_layer(x, y, "Enemies", obj_enemy_grape);
+scr_create_projectile(obj_projectile_grape, x, y, irandom_range(0, 360));
 
 if (hp < 1)
 {

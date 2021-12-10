@@ -1,4 +1,6 @@
 /// @description Insert description here
 
-move_bounce_solid(false);
+global.wave += 1;
+
+scr_summon_wave();
 

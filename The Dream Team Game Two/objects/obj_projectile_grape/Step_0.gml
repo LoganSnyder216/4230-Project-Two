@@ -3,8 +3,12 @@
 // Inherit the parent event
 event_inherited();
 
-direction = irandom_range(0, 360);
-speed = move_speed;
+move_bounce_solid(false);
 
+life_span -= 1;
 
+if (life_span < 1)
+{
+	instance_destroy();
+}
 
