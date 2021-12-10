@@ -11,8 +11,9 @@ Game Name:	Gladiolus
 ==========
 Instructions
 
-You control The Gardener. (currently a yellow circle)
-To win, defeat 30 enemies by shooting them with projectiles.
+You control The Gardener.
+Defeat each wave of enemies by shooting them with projectiles.
+You win after clearing all the waves.
 
 You take damage from enemy projectiles and explosions.
 You lose if you run out of health.
@@ -30,6 +31,8 @@ Aim with the mouse
 Switch Projectile Type:	Q or Left Mouse Button
 Switch Attack Pattern:	E or Right Mouse Button
 
-Restart Room: R
+Restart Room:		R
+Clear Current Wave:	G
+Gain Health:		H
 
 ==========
