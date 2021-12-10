@@ -1,5 +1,29 @@
 /// @description Insert description here
 
+if (current_projectile == PROJECTILE_TYPE.BASIC)
+{
+	if (current_attack_pattern == ATTACK_PATTERN.BASIC)
+	{
+		sprite_index = spr_gardener_basic_one;
+	}
+	else if (current_attack_pattern == ATTACK_PATTERN.SPREAD)
+	{
+		sprite_index = spr_gardener_basic_two;
+	}
+}
+else if (current_projectile == PROJECTILE_TYPE.WIDE)
+{
+	if (current_attack_pattern == ATTACK_PATTERN.BASIC)
+	{
+		sprite_index = spr_gardener_wide_one;
+	}
+	else if (current_attack_pattern == ATTACK_PATTERN.SPREAD)
+	{
+		sprite_index = spr_gardener_wide_two;
+	}
+}
+
+
 draw_self();
 
 var _x_offset = 192;

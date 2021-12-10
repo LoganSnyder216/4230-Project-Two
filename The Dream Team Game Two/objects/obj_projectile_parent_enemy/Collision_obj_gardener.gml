@@ -5,7 +5,7 @@ if (instance_exists(other))
 	if (other.i_frames == 0)
 	{
 		other.hp -= 1;
-		other.i_frames = 30;
+		other.i_frames = 15;
 	}
 	
 	if (other.hp <= 0)

@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"12f05d89-6071-4667-b8b9-8b6a6236782d","path":"sprites/spr_gardener_main/spr_gardener_main.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"12f05d89-6071-4667-b8b9-8b6a6236782d","path":"sprites/spr_gardener_main/spr_gardener_main.yy",},"LayerId":{"name":"9725f181-e563-4706-b47c-25de9802767d","path":"sprites/spr_gardener_main/spr_gardener_main.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gardener_main","path":"sprites/spr_gardener_main/spr_gardener_main.yy",},"resourceVersion":"1.0","name":"12f05d89-6071-4667-b8b9-8b6a6236782d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"12f05d89-6071-4667-b8b9-8b6a6236782d","path":"sprites/spr_gardener_basic_one/spr_gardener_basic_one.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"12f05d89-6071-4667-b8b9-8b6a6236782d","path":"sprites/spr_gardener_basic_one/spr_gardener_basic_one.yy",},"LayerId":{"name":"9725f181-e563-4706-b47c-25de9802767d","path":"sprites/spr_gardener_basic_one/spr_gardener_basic_one.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gardener_basic_one","path":"sprites/spr_gardener_basic_one/spr_gardener_basic_one.yy",},"resourceVersion":"1.0","name":"12f05d89-6071-4667-b8b9-8b6a6236782d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_gardener_main","path":"sprites/spr_gardener_main/spr_gardener_main.yy",},
+    "spriteId": {"name":"spr_gardener_basic_one","path":"sprites/spr_gardener_basic_one/spr_gardener_basic_one.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8257c932-00af-4422-8c68-393dc3995a3b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12f05d89-6071-4667-b8b9-8b6a6236782d","path":"sprites/spr_gardener_main/spr_gardener_main.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8257c932-00af-4422-8c68-393dc3995a3b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12f05d89-6071-4667-b8b9-8b6a6236782d","path":"sprites/spr_gardener_basic_one/spr_gardener_basic_one.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 66,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_gardener_main","path":"sprites/spr_gardener_main/spr_gardener_main.yy",},
+    "parent": {"name":"spr_gardener_basic_one","path":"sprites/spr_gardener_basic_one/spr_gardener_basic_one.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_gardener_main",
+    "name": "spr_gardener_basic_one",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Gardener",
+    "path": "folders/Sprites/Gardener.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_gardener_main",
+  "name": "spr_gardener_basic_one",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -3,6 +3,7 @@
 //Starts a new wave after the current wave has been completed
 if (global.is_wave_cleared == 1)
 {
+	instance_destroy(obj_enemy_parent);
 	instance_destroy(obj_projectile_parent_enemy);
 	
 	if (global.wave < 9)
