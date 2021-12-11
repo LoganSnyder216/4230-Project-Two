@@ -24,6 +24,7 @@
     {"id":{"name":"obj_projectile_needle","path":"objects/obj_projectile_needle/obj_projectile_needle.yy",},"order":7,},
     {"id":{"name":"spr_solo_grape","path":"sprites/spr_solo_grape/spr_solo_grape.yy",},"order":4,},
     {"id":{"name":"obj_enemy_flower","path":"objects/obj_enemy_flower/obj_enemy_flower.yy",},"order":1,},
+    {"id":{"name":"spr_hedge","path":"sprites/spr_hedge/spr_hedge.yy",},"order":18,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":11,},
     {"id":{"name":"obj_projectile_wide","path":"objects/obj_projectile_wide/obj_projectile_wide.yy",},"order":4,},
     {"id":{"name":"spr_play_area","path":"sprites/spr_play_area/spr_play_area.yy",},"order":1,},
@@ -121,7 +122,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "The Dream Team Game Two",
