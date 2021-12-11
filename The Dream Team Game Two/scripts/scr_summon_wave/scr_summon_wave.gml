@@ -8,6 +8,8 @@ function scr_summon_wave(){
 		var _x = irandom_range(PLAY_AREA_BOUNDARY_LEFT + 64, PLAY_AREA_BOUNDARY_RIGHT - 64);
 		var _y = irandom_range(PLAY_AREA_BOUNDARY_TOP + 64, PLAY_AREA_BOUNDARY_BOTTOM - 64);
 		
+		audio_play_sound(wave_start, 1, false);
+		
 		var _wave_enemies = global.wave_enemies[global.wave]
 		var _chosen_enemy = _wave_enemies[irandom_range(0, array_length(_wave_enemies) - 1)];
 		
