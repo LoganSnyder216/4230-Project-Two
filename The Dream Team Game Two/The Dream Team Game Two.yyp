@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Vine_Straight","path":"sprites/Vine_Straight/Vine_Straight.yy",},"order":19,},
     {"id":{"name":"spr_projectile_petal","path":"sprites/spr_projectile_petal/spr_projectile_petal.yy",},"order":2,},
     {"id":{"name":"spr_enemy_flower","path":"sprites/spr_enemy_flower/spr_enemy_flower.yy",},"order":0,},
     {"id":{"name":"scr_attack_pattern","path":"scripts/scr_attack_pattern/scr_attack_pattern.yy",},"order":2,},
@@ -32,6 +33,7 @@
     {"id":{"name":"obj_enemy_creeping_cluster","path":"objects/obj_enemy_creeping_cluster/obj_enemy_creeping_cluster.yy",},"order":4,},
     {"id":{"name":"spr_frame_projectile_basic","path":"sprites/spr_frame_projectile_basic/spr_frame_projectile_basic.yy",},"order":1,},
     {"id":{"name":"spr_cover","path":"sprites/spr_cover/spr_cover.yy",},"order":2,},
+    {"id":{"name":"spr_vine_corner","path":"sprites/spr_vine_corner/spr_vine_corner.yy",},"order":20,},
     {"id":{"name":"scr_game_setup","path":"scripts/scr_game_setup/scr_game_setup.yy",},"order":1,},
     {"id":{"name":"obj_projectile_wateringcan","path":"objects/obj_projectile_wateringcan/obj_projectile_wateringcan.yy",},"order":1,},
     {"id":{"name":"scr_create_projectile","path":"scripts/scr_create_projectile/scr_create_projectile.yy",},"order":0,},
@@ -122,7 +124,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "The Dream Team Game Two",
